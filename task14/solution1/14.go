@@ -15,7 +15,7 @@ func main() {
 
 	values := []interface{}{str, num, ok, ch}
 
-	// Используем type switch. Он берет интерфейс и пытаемся преобразовать тип
+	// Используем type switch. Он берет интерфейс и пытается преобразовать тип
 	for _, v := range values {
 		switch v.(type) {
 		case string:
